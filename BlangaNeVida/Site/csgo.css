@@ -1,0 +1,68 @@
+body {
+    background-color: lightskyblue;
+    background-image: url(../Img/onepiecewal.jpg);
+
+}
+
+h1 {
+    font-size: 200%;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: aliceblue;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 15px;
+}
+
+td,th {
+    border: 1px solid black;
+    background-color: aliceblue;
+
+}
+
+.geral { animation: slideIn 2s;}
+@keyframes slideIn{
+    0% { transform: translateX(-50%);}
+    50% { transform: translateX(0);}
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  }
+  
+
+#mu {
+    background-color: rgb(90, 194, 235);
+    opacity: 80%;
+}
+
+#lu {
+    background-color: red;
+    opacity: 80%;
+}
+
+#zo {
+    background-color: lightgreen;
+    opacity: 80%;
+}
+
+#na {
+    background-color: lightsalmon;
+    opacity: 80%;
+}
+
+#us {
+    background-color: coral;
+    opacity: 80%;
+}
